@@ -66,7 +66,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixUser">
-            <input type="text" nz-input formControlName="firstname" placeholder="Firstname" />
+            <input type="text" nz-input formControlName="firstname" placeholder="Name" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('firstname')?.touched && validateForm.get('firstname')?.errors"
@@ -79,7 +79,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixUser">
-            <input type="text" nz-input formControlName="lastname" placeholder="Lastname" />
+            <input type="text" nz-input formControlName="lastname" placeholder="Surname" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('lastname')?.touched && validateForm.get('lastname')?.errors"

@@ -12,7 +12,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
-import { CategoryDto } from 'src/models/category/category.dto';
+import { CategoryDto } from '../../models/category/category.dto';
 
 import { CategoryService } from './category.service';
 

@@ -1,9 +1,9 @@
 import { forwardRef, Inject, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { ArticleDto } from 'src/models/article/article.dto';
-import { ArticleEntity } from 'src/models/article/article.entity';
-import { CategoryEntity } from 'src/models/category/category.entity';
-import { UserEntity } from 'src/models/user/user.entity';
+import { ArticleDto } from '../../models/article/article.dto';
+import { ArticleEntity } from '../../models/article/article.entity';
+import { CategoryEntity } from '../../models/category/category.entity';
+import { UserEntity } from '../../models/user/user.entity';
 import { Repository } from 'typeorm';
 
 import { CategoryService } from '../category/category.service';

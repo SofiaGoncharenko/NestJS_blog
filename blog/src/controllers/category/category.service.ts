@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { CategoryDto } from 'src/models/category/category.dto';
-import { CategoryEntity } from 'src/models/category/category.entity';
+import { CategoryDto } from '../../models/category/category.dto';
+import { CategoryEntity } from '../../models/category/category.entity';
 import { Repository } from 'typeorm';
 
 @Injectable()
@@ -16,8 +16,8 @@ export class CategoryService {
 
   getCategories(page = 1, take = 25): Promise<CategoryEntity[]> {
     return this.categoryRepo.find({
-      /* skip: take * (page - 1),
-      take, */
+       skip: take * (page - 1),
+      take, 
       order: {
         id: 'DESC',
       },

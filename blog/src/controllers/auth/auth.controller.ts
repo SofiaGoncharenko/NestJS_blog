@@ -1,8 +1,8 @@
 import { Body, Controller, HttpException, HttpStatus, Param, Post, Put, UnauthorizedException } from '@nestjs/common';
-import { JwtToken } from 'src/models/auth/jwt.token';
-import { LoginDto } from 'src/models/auth/login.dto';
-import { PasswordDto } from 'src/models/auth/password.dto';
-import { SigninDto } from 'src/models/auth/signin.dto';
+import { JwtToken } from '../../models/auth/jwt.token';
+import { LoginDto } from '../../models/auth/login.dto';
+import { PasswordDto } from '../../models/auth/password.dto';
+import { SigninDto } from '../../models/auth/signin.dto';
 
 import { AuthService } from './auth.service';
 

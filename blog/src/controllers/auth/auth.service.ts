@@ -1,13 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
-import { APP_CONFIG } from 'src/config/app.config';
-import { JwtPayload } from 'src/models/auth/jwt.payload';
-import { JwtToken } from 'src/models/auth/jwt.token';
-import { LoginDto } from 'src/models/auth/login.dto';
-import { PasswordDto } from 'src/models/auth/password.dto';
-import { SigninDto } from 'src/models/auth/signin.dto';
-import { UserEntity } from 'src/models/user/user.entity';
+import { APP_CONFIG } from '../../config/app.config';
+import { JwtPayload } from '../../models/auth/jwt.payload';
+import { JwtToken } from '../../models/auth/jwt.token';
+import { LoginDto } from '../../models/auth/login.dto';
+import { PasswordDto } from '../../models/auth/password.dto';
+import { SigninDto } from '../../models/auth/signin.dto';
+import { UserEntity } from '../../models/user/user.entity';
 
 import { UserService } from '../user/user.service';
 

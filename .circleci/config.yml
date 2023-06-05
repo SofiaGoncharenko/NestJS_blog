@@ -25,8 +25,15 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
+      - node/install:
+          install-yarn: true
+          node-version: '16.13'
       - run:
-          name: Checkstyle
+          name: Install-dependencies
+          command: yarn install
+          working_directory: ./blog
+      - run:
+          name: Test
           command: yarn lint
           working_directory: ./blog
 workflows:

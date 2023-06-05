@@ -13,13 +13,9 @@ jobs:
           install-yarn: true
           node-version: '16.13'
       - run:
-          name: dir
-          command: dir
-          working_directory: ./blog
-      - run:
           name: Install-dependencies
           command: yarn install
-          working_directory: ~/blog
+          working_directory: ./blog
       - run:
           name: Test
           command: yarn test

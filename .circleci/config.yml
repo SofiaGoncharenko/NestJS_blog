@@ -20,14 +20,14 @@ jobs:
           name: Test
           command: yarn test
           working_directory: ./blog
-    checkstyle:
-      docker:
-        - image: cimg/base:stable
-      steps:
-        - checkout
-        - run:
-            name: Checkstyle
-            command: yarn lint
+  checkstyle:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Checkstyle
+          command: yarn lint
 workflows:
   test_my_app:
     jobs:

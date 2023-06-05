@@ -28,6 +28,7 @@ jobs:
       - run:
           name: Checkstyle
           command: yarn lint
+          working_directory: ./blog
 workflows:
   test_my_app:
     jobs:

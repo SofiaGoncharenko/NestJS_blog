@@ -15,7 +15,7 @@ jobs:
       - run:
           name: dir
           command: dir
-          working_directory: ~/blog
+          working_directory: ./blog
       - run:
           name: Install-dependencies
           command: yarn install

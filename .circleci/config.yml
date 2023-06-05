@@ -12,7 +12,10 @@ jobs:
       - node/install:
           install-yarn: true
           node-version: '16.13'
-      - run: dir
+      - run:
+          name: dir
+          command: dir
+          working_directory: ~/blog
       - run:
           name: Install-dependencies
           command: yarn install

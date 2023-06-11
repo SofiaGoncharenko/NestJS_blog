@@ -2,20 +2,20 @@
   <form nz-form [formGroup]="userForm" class="login-form" (ngSubmit)="submitForm()">
     <nz-form-item>
       <nz-form-label [nzSpan]="5">Actual password</nz-form-label>
-      <nz-form-control [nzSpan]="19" [nzValidateStatus]="isInputError('password')">
+      <nz-form-control id="Actual_pass" [nzSpan]="19" [nzValidateStatus]="isInputError('password')">
         <input type="password" nz-input formControlName="password" placeholder="Actual password" />
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
       <nz-form-label [nzSpan]="5">New password</nz-form-label>
-      <nz-form-control [nzSpan]="19" [nzValidateStatus]="isInputError('password1')">
+      <nz-form-control id="New_pass" [nzSpan]="19" [nzValidateStatus]="isInputError('password1')">
         <input type="password" nz-input formControlName="password1" placeholder="New password" />
         <nz-form-explain>Should be combination of numbers & alphabets</nz-form-explain>
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
       <nz-form-label [nzSpan]="5">New password</nz-form-label>
-      <nz-form-control [nzSpan]="19" [nzValidateStatus]="isInputError('password2')">
+      <nz-form-control id="New_pass_cofirm" [nzSpan]="19" [nzValidateStatus]="isInputError('password2')">
         <input type="password" nz-input formControlName="password2" placeholder="New password" />
       </nz-form-control>
     </nz-form-item>

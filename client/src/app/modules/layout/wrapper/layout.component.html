@@ -28,7 +28,7 @@
           <span class="user-panel-email">{{ (user$ | async).email }}</span>
         </p>
         <nz-badge nzDot>
-          <nz-avatar
+          <nz-avatar id="avatar_icon"
             nzShape="square"
             nzText="{{ (user$ | async).firstname[0] + (user$ | async).lastname[0] }}"
             nzSrc="{{ (user$ | async).avatar }}"
@@ -36,7 +36,7 @@
         </nz-badge>
         <ng-template #userPanelPopOverTemplate>
           <div style="padding: 1rem 0">
-            <a [routerLink]="['/my/profile']">
+            <a id="myaccount_button" [routerLink]="['/my/profile']">
               <i nz-icon nzType="user"></i>
               &nbsp; My account
             </a>

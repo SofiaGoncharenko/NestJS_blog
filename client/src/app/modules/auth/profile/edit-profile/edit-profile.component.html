@@ -3,19 +3,19 @@
     <nz-form-item>
       <nz-form-label [nzSpan]="5">Email</nz-form-label>
       <nz-form-control [nzSpan]="19">
-        <input type="email" nz-input [value]="user.email" placeholder="Email" readonly />
+        <input type="email" id="email_edit" nz-input [value]="user.email" placeholder="Email" readonly />
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
       <nz-form-label [nzSpan]="5">Firstname</nz-form-label>
       <nz-form-control [nzSpan]="19" [nzValidateStatus]="isInputError('firstname')">
-        <input type="text" nz-input formControlName="firstname" placeholder="Firstname" />
+        <input type="text" id="firstname_edit" nz-input formControlName="firstname" placeholder="Firstname" />
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
       <nz-form-label [nzSpan]="5">Lastname</nz-form-label>
       <nz-form-control [nzSpan]="19" [nzValidateStatus]="isInputError('lastname')">
-        <input type="text" nz-input formControlName="lastname" placeholder="Lastname" />
+        <input type="text" id="lastname_edit" nz-input formControlName="lastname" placeholder="Lastname" />
       </nz-form-control>
     </nz-form-item>
     <br />

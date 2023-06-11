@@ -12,7 +12,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixMail">
-            <input type="email" nz-input formControlName="email" placeholder="Email" />
+            <input type="email" id="email_reg" nz-input formControlName="email" placeholder="Email" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('email')?.touched && validateForm.get('email')?.errors"
@@ -25,7 +25,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixLock">
-            <input type="password" nz-input formControlName="password" placeholder="Password" />
+            <input type="password" id="pass_reg" nz-input formControlName="password" placeholder="Password" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('password')?.touched && validateForm.get('password')?.errors"
@@ -38,7 +38,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixLock">
-            <input type="password" nz-input formControlName="password2" placeholder="Confirm password" />
+            <input type="password" id="pass_confirm" nz-input formControlName="password2" placeholder="Confirm password" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('password2')?.touched && validateForm.get('password2')?.errors"
@@ -53,7 +53,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixUser">
-            <input type="text" nz-input formControlName="username" placeholder="Username" />
+            <input type="text" id="Username_reg" nz-input formControlName="username" placeholder="Username" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('username')?.touched && validateForm.get('username')?.errors"
@@ -66,7 +66,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixUser">
-            <input type="text" nz-input formControlName="firstname" placeholder="Name" />
+            <input type="text" id="Firstname_reg" nz-input formControlName="firstname" placeholder="Name" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('firstname')?.touched && validateForm.get('firstname')?.errors"
@@ -79,7 +79,7 @@
       <nz-form-item>
         <nz-form-control>
           <nz-input-group [nzPrefix]="prefixUser">
-            <input type="text" nz-input formControlName="lastname" placeholder="Surname" />
+            <input type="text" id="Lastname_reg" nz-input formControlName="lastname" placeholder="Surname" />
           </nz-input-group>
           <nz-form-explain
             *ngIf="validateForm.get('lastname')?.touched && validateForm.get('lastname')?.errors"

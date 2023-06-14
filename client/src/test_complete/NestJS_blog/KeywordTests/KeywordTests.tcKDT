@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login" key="{2CE2D562-C08E-43B3-A9D2-52A69CD2F424}" path="Login.tcKDTest" />
+		<child name="Register" key="{4126A12D-5CDD-4602-BCD0-0C313596E4BA}" path="Register.tcKDTest" />
+		<child name="Change_password" key="{027072E5-8D4A-49FC-A3DD-9ED503E1B1DA}" path="Change_password.tcKDTest" />
+		<child name="Change_personal_info" key="{F9D20B1C-1920-419D-8D39-A8D6F66DCE40}" path="Change_personal_info.tcKDTest" />
+		<child name="Adding_article" key="{F78C55B8-C33B-4AE2-97E7-41D50505EC28}" path="Adding_article.tcKDTest" />
+		<child name="Checking_articles" key="{8338F25F-247A-4EDF-8CDA-433088201471}" path="Checking_articles.tcKDTest" />
+		<child name="Editing_article" key="{4C8F9D33-CD80-4942-8A54-0FB4169CABF8}" path="Editing_article.tcKDTest" />
+		<child name="Deleting_article" key="{72FA244C-BF31-4813-B9E7-4F7BCA7E127C}" path="Deleting_article.tcKDTest" />
+		<child name="Creating_category" key="{E7A2AFA8-9098-4FD0-97EC-2CA03AD2F996}" path="Creating_category.tcKDTest" />
+		<child name="Editing_category" key="{73D18EF5-BFCF-4371-86B5-D7A768798512}" path="Editing_category.tcKDTest" />
+		<child name="Deleting_category" key="{D225E123-E7D8-4400-BE8C-88818F3B9273}" path="Deleting_category.tcKDTest" />
+		<child name="Logout" key="{9D7BF072-340D-41B6-8952-E10E93C8FAEA}" path="Logout.tcKDTest" />
+	</children>
+</Root>

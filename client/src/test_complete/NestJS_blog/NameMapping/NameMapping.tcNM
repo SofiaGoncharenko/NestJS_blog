@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{722516D6-88A0-4F52-A83E-0761A5EA0FF9}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{9A696E39-A097-4DFF-85C0-5C772B949A11}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{99586D93-89DB-4D68-BD21-45653F077A4E}">
+								<Image FileName="366179666" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{966237F4-DCA3-404C-AEAE-BF05DCDE6214}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageFront" Key="{5AD68235-73FB-4375-9F69-84B8D632DC8E}">
+								<Image FileName="-1786625182" Left="0" Top="88" Right="1920" Bottom="1020" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost:4200/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeMyAccount" Key="{46EA3322-BA87-48B7-89AD-40424639E602}">
+										<Image FileName="-1786625182" Left="1810" Top="116" Right="1900" Bottom="139" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;My account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionLogIn" Key="{81278E7B-EF86-4018-B027-C2C64E2FC331}">
+										<Image FileName="-350662325" Left="96" Top="88" Right="1824" Bottom="979" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formRememberMe" Key="{2632F392-0EED-4C94-9D73-54D74AB31ECE}">
+										<Image FileName="-350662325" Left="740" Top="266" Right="1180" Bottom="874" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Remember me&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;login-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailInput" Key="{C26D9AC2-B1A8-4A90-9B22-337A53AFA0B7}">
+										<Image FileName="-350662325" Left="740" Top="538" Right="1180" Bottom="578" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email_input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRememberMe" Key="{CA34CA02-5D2D-48BC-B3F1-07FA15E68D4C}">
+										<Image FileName="904089342" Left="740" Top="693" Right="893" Bottom="743" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Remember me&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;ant-checkbox-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRememberMe" Key="{FCCBB9C8-14BC-4E7D-B631-004BFDA6BCC2}">
+										<Image FileName="904089342" Left="770" Top="706" Right="883" Bottom="729" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Remember me&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswordInput" Key="{C8982BC0-094F-4025-83DA-C7953A748D01}">
+										<Image FileName="1938745933" Left="740" Top="618" Right="1180" Bottom="658" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password_input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[2]/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[2]/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{1B1E6F5B-5726-426B-B547-F36531428F87}">
+										<Image FileName="68059167" Left="740" Top="748" Right="1180" Bottom="788" />
+										<TypeInfo Item0="{174B4131-AAD4-4354-912C-62563808C029}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;login-form-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{FC1DF53A-BDC4-462F-8991-DB234D4F8740}">
+										<Image FileName="-1081890471" Left="740" Top="613" Right="1180" Bottom="663" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-form-item[2]/nz-form-control/div[contains(@class, &apos;ant-form-item-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-form-item[2]/nz-form-control/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMyAccount" Key="{BDAE1474-5FD5-4104-8F40-11D57243C8E3}">
+										<Image FileName="686780835" Left="1790" Top="88" Right="1920" Bottom="168" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-header/div/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-header/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRegisterNow" Key="{7D537507-2828-4608-B81D-954BBC41686D}">
+										<Image FileName="2013798653" Left="764" Top="806" Right="860" Bottom="829" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;register now&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSignIn" Key="{2F6F48DD-48C1-445C-B9FE-E8547868BBA5}">
+										<Image FileName="-1878386941" Left="96" Top="88" Right="1819" Bottom="979" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCredentials" Key="{B4E7A2D1-90CE-4D52-AB65-861925BFA488}">
+										<Image FileName="-1878386941" Left="737" Top="110" Right="1177" Bottom="1028" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Credentials&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;login-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailReg" Key="{EC5E3A52-26AD-425E-9633-6EDBE67FA62E}">
+										<Image FileName="-1878386941" Left="737" Top="185" Right="1177" Bottom="225" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email_reg" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassReg" Key="{45C33ABA-4ABB-453F-90EF-2D1E07D68319}">
+										<Image FileName="1550050364" Left="737" Top="265" Right="1177" Bottom="305" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pass_reg" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[2]/nz-form-control//nz-input-group/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[2]/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[2]/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassConfirm" Key="{406694C8-108E-403D-9F69-C14AAF8EC26B}">
+										<Image FileName="1073468702" Left="737" Top="345" Right="1177" Bottom="385" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pass_confirm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[3]/nz-form-control//nz-input-group/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[3]/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[3]/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernameReg" Key="{D42859F0-ED88-44B2-BC86-E629749B8737}">
+										<Image FileName="-30781018" Left="737" Top="475" Right="1177" Bottom="515" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Username_reg" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[4]/nz-form-control//nz-input-group/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[4]/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[4]/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstnameReg" Key="{9DA8F12B-65C7-4D71-8C1C-7A0CD43F12C9}">
+										<Image FileName="-1499846520" Left="737" Top="555" Right="1177" Bottom="595" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Firstname_reg" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[5]/nz-form-control//nz-input-group/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[5]/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[5]/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastnameReg" Key="{8F2CD6A2-321B-4D8A-9404-8507DAE92738}">
+										<Image FileName="692148292" Left="737" Top="635" Right="1177" Bottom="675" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Lastname_reg" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[6]/nz-form-control//nz-input-group/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[6]/nz-form-control//nz-input-group/input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/nz-form-item[6]/nz-form-control//nz-input-group/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignUp" Key="{D26ABDE4-284C-4627-90EA-E0D4C8DF33CB}">
+										<Image FileName="934027806" Left="737" Top="945" Right="1177" Bottom="985" />
+										<TypeInfo Item0="{174B4131-AAD4-4354-912C-62563808C029}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Sign up&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;login-form-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyaccountButton" Key="{29065F73-CEC9-430A-B948-07BD793F51C4}">
+										<Image FileName="-1593304453" Left="1728" Top="218" Right="1850" Bottom="241" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#myaccount_button" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;My account&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionYourInformation" Key="{2949100C-0482-4D9D-BF1F-E315D71F1990}">
+										<Image FileName="-956181043" Left="334" Top="168" Right="1837" Bottom="619" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Your information&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelChangePassword" Key="{8A185096-A515-428D-B13B-53BAA9DF99C5}">
+										<Image FileName="-956181043" Left="598" Top="188" Right="775" Bottom="244" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Change password&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formActualPassword" Key="{891E6E51-1908-4E8D-995C-DAC265A3D562}">
+										<Image FileName="158011709" Left="384" Top="263" Right="1787" Bottom="569" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Actual password&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;login-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordbox" Key="{F2CF4D89-B090-4DC6-BCF1-9CD0E875409E}">
+										<Image FileName="158011709" Left="676" Top="267" Right="1787" Bottom="307" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item/nz-form-control//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item/nz-form-control//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-form-control[@id=&apos;Actual_pass&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item/nz-form-control//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordbox2" Key="{C60E609B-B60C-44CB-AC68-DFD3BD5101DD}">
+										<Image FileName="259690604" Left="676" Top="347" Right="1787" Bottom="387" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item[2]/nz-form-control//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item[2]/nz-form-control//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-form-control[@id=&apos;New_pass&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item[2]/nz-form-control//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordbox3" Key="{BD4FA007-A1E6-499E-8F55-156F1EAE55DA}">
+										<Image FileName="1896926471" Left="676" Top="427" Right="1787" Bottom="467" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item[3]/nz-form-control//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item[3]/nz-form-control//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-form-control[@id=&apos;New_pass_cofirm&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-change-pwd/form/nz-form-item[3]/nz-form-control//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{BE26FFB4-2400-4702-B6AC-DB733641FD7C}">
+										<Image FileName="-1539415825" Left="1711" Top="529" Right="1786" Bottom="569" />
+										<TypeInfo Item0="{174B4131-AAD4-4354-912C-62563808C029}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ant-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAvatarIcon" Key="{12A8560A-FD9A-4356-B5A0-66FB43BA321B}">
+										<Image FileName="-2132765179" Left="1850" Top="108" Right="1890" Bottom="148" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#avatar_icon" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-avatar[.=&apos;SH&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/nz-avatar[contains(@class, &apos;ant-avatar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/nz-avatar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSh" Key="{E9DAA3DB-D162-42E3-B3E5-458D92682245}">
+										<Image FileName="-2132765179" Left="1859" Top="108" Right="1881" Bottom="148" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;SH&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;ant-avatar-string&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-avatar[@id=&apos;avatar_icon&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-avatar/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formEmail" Key="{D66FC552-E7BC-4901-A7B4-8E51B8D05027}">
+										<Image FileName="1502648877" Left="384" Top="263" Right="1787" Bottom="569" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;login-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstnameEdit" Key="{E1385415-A23C-4439-895A-31F6415FFE04}">
+										<Image FileName="1502648877" Left="676" Top="347" Right="1787" Bottom="387" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#firstname_edit" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-edit-profile/form/nz-form-item[2]/nz-form-control//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-edit-profile/form/nz-form-item[2]/nz-form-control//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//app-edit-profile/form/nz-form-item[2]/nz-form-control//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-edit-profile/form/nz-form-item[2]/nz-form-control//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastnameEdit" Key="{7A47DF53-9B1B-400A-8808-6ED814827270}">
+										<Image FileName="-983414372" Left="676" Top="427" Right="1787" Bottom="467" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lastname_edit" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-edit-profile/form/nz-form-item[3]/nz-form-control//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-edit-profile/form/nz-form-item[3]/nz-form-control//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//app-edit-profile/form/nz-form-item[3]/nz-form-control//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-edit-profile/form/nz-form-item[3]/nz-form-control//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAdminSpace" Key="{6505B1CD-CCB6-4241-9372-EDD36DF31077}">
+										<Image FileName="-2088049148" Left="0" Top="168" Right="250" Bottom="1020" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Admin space&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;ant-menu-root&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAuthorSpace" Key="{5F66404A-E40B-4213-AE27-FF65776F13B7}">
+										<Image FileName="-2088049148" Left="0" Top="233" Right="251" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Author space&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li[contains(@class, &apos;ant-menu-item&apos;)][contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAuthorSpace2" Key="{18D7BFED-A3A9-44AA-BAFD-E565ADDDB5C0}">
+										<Image FileName="-2088049148" Left="60" Top="246" Right="162" Bottom="269" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Author space&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/span/span[contains(@class, &apos;nav-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionYourArticles" Key="{572F8D44-A93A-4268-865C-C284D27C94FA}">
+										<Image FileName="1244007272" Left="334" Top="168" Right="1837" Bottom="507" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Your articles&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonWriteSomething" Key="{14CDB7C5-7029-44C3-9AF1-DEB14940E901}">
+										<Image FileName="1244007272" Left="1609" Top="208" Right="1787" Bottom="248" />
+										<TypeInfo Item0="{174B4131-AAD4-4354-912C-62563808C029}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Write something !&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ant-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionWriteAnArticle" Key="{1DA2E35A-ABEA-4B19-A510-3AEF8F007056}">
+										<Image FileName="-1468900307" Left="333" Top="168" Right="1831" Bottom="1049" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Write an article&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formTitle" Key="{D9BAAF32-3229-4ABC-9D70-1D201B69F081}">
+										<Image FileName="-1468900307" Left="383" Top="260" Right="1781" Bottom="490" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{886656A1-8A52-44CB-BA0B-5AB19E5A4FB8}">
+										<Image FileName="-1468900307" Left="383" Top="314" Right="1781" Bottom="354" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCategory" Key="{3F46477A-84D7-48E8-BAB6-3DB92865E91D}">
+										<Image FileName="-579654436" Left="398" Top="452" Right="1755" Bottom="477" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Category&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ant-select-selection__placeholder&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-select/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNew" Key="{93EB33E3-89F8-44F8-A315-3537E2B6D8B7}">
+										<Image FileName="1879793808" Left="383" Top="490" Right="1781" Bottom="610" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;ant-select-dropdown-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-overlay-12&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNew2" Key="{AF908853-132E-4775-A42C-AB956E6A9CA8}">
+										<Image FileName="1879793808" Left="383" Top="490" Right="1781" Bottom="530" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{E37FEB1F-967E-48FC-ACBE-7D716E58E854}">
+										<Image FileName="-2088939731" Left="0" Top="88" Right="1920" Bottom="1020" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNewArticleHere" Key="{BE7AC866-647B-4E7F-9DB1-1868311AA3F8}">
+										<Image FileName="-2049390638" Left="676" Top="571" Right="1489" Bottom="624" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;New article here...&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ce-paragraph&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;editor&apos;]//div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPublish" Key="{8DE63D01-54D2-40B1-AFDD-431E90B54F4B}">
+										<Image FileName="17102410" Left="1685" Top="208" Right="1780" Bottom="248" />
+										<TypeInfo Item0="{174B4131-AAD4-4354-912C-62563808C029}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Publish&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ant-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-page-header-extra/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-page-header-extra/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourArticles" Key="{1285B9EC-D61B-46D4-ADC1-9BA48B53EFDE}">
+										<Image FileName="-445258048" Left="354" Top="188" Right="1817" Bottom="260" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-page-header[contains(., &apos;Your articles&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-page-header[contains(@class, &apos;ant-page-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-page-header" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-page-header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCategory2" Key="{805B84B2-B84B-4C5D-87FA-E82D7CDEA2C2}">
+										<Image FileName="-1576201482" Left="390" Top="446" Right="1766" Bottom="484" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ant-select-selection__rendered&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-select/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTest" Key="{8EBC9A3E-ADE3-44F9-88AF-C2F6B93178FA}">
+										<Image FileName="-133934828" Left="383" Top="570" Right="1781" Bottom="610" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAllArticles" Key="{C6F53366-669B-40E1-B464-65F87A0B5E9C}">
+										<Image FileName="1692096108" Left="0" Top="293" Right="251" Bottom="343" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;All articles&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionArticles" Key="{6CBD2020-BA2D-4458-8E91-F6B0A414BA25}">
+										<Image FileName="982754805" Left="333" Top="168" Right="1831" Bottom="1358" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Articles&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePost" Key="{72E211E5-F8BC-43D7-B839-8BD7C39547FE}">
+										<Image FileName="982754805" Left="443" Top="271" Right="675" Bottom="301" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h4[.=&apos;post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton/nz-list-item//nz-list-item-meta//h4[contains(@class, &apos;ant-list-item-meta-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-skeleton/nz-list-item//nz-list-item-meta//h4" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton/nz-list-item//nz-list-item-meta//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPost" Key="{E5FD9CC1-EC28-43EA-86EA-BDD5B45A2783}">
+										<Image FileName="982754805" Left="443" Top="272" Right="483" Bottom="299" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton/nz-list-item//nz-list-item-meta//h4/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-skeleton/nz-list-item//nz-list-item-meta//h4/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton/nz-list-item//nz-list-item-meta//h4/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{D268CDFC-EFE8-48C5-8279-8F5454F46781}">
+										<Image FileName="1999287746" Left="282" Top="237" Right="298" Bottom="253" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-layout/nz-content[@id=&apos;content&apos;]/app-article-single/section/nz-page-header//*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePost2" Key="{54F187BE-3D37-4D9E-A7ED-399AB976A87C}">
+										<Image FileName="-1916358569" Left="443" Top="468" Right="675" Bottom="498" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4[contains(@class, &apos;ant-list-item-meta-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPost2" Key="{0293F511-5E2E-41FC-973E-9C68C7495E4B}">
+										<Image FileName="-1916358569" Left="443" Top="468" Right="483" Bottom="495" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAuthors" Key="{9EA61531-59B8-40C4-88E7-0E42DF726091}">
+										<Image FileName="-847151830" Left="0" Top="413" Right="251" Bottom="463" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Authors&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-tns-c4-92&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAuthors" Key="{E71D695E-A425-4A4B-9933-01766317C769}">
+										<Image FileName="-1209515993" Left="0" Top="413" Right="250" Bottom="708" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Authors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;ng-tns-c4-92&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSofiiaH" Key="{6129F480-C845-4C43-B0E1-6DAF703C750F}">
+										<Image FileName="-1209515993" Left="0" Top="473" Right="250" Bottom="703" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[5]/ul[contains(@class, &apos;ng-star-inserted&apos;)]/ul[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/ul/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSofiiaH2" Key="{3E0AC8CD-6D5B-4745-B710-E1336C8DAE66}">
+										<Image FileName="-1209515993" Left="0" Top="473" Right="251" Bottom="523" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(text(), &apos;Sofiia H&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyArticle111" Key="{D1666F3C-F657-46E6-847C-307A8921A751}">
+										<Image FileName="1371255797" Left="444" Top="468" Right="617" Bottom="498" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h4[.=&apos;My article 111&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4[contains(@class, &apos;ant-list-item-meta-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyArticle111" Key="{75EB8171-2582-49A4-B00E-ED253526C58B}">
+										<Image FileName="1371255797" Left="444" Top="468" Right="573" Bottom="495" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;My article 111&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-skeleton[2]/nz-list-item//nz-list-item-meta//h4/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{DAD2FD07-08ED-4B5E-8F6E-87FA33A41029}">
+										<Image FileName="1357416231" Left="280" Top="235" Right="300" Bottom="255" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-layout/nz-content[@id=&apos;content&apos;]/app-article-single/section/nz-page-header//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTest21Test" Key="{FCA629AC-FCFD-43AD-A4E3-A3054BA9BBF5}">
+										<Image FileName="-1781433184" Left="0" Top="593" Right="251" Bottom="643" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(text(), &apos;Test_2_1 test&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSofiiaHoncharenko" Key="{431BDC0B-10A9-4DF6-AF09-E32603982132}">
+										<Image FileName="-31546042" Left="0" Top="653" Right="251" Bottom="703" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(text(), &apos;Sofiia Honcharenko&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{6C6BF37B-C006-44EE-A9CF-EB66E971F442}">
+										<Image FileName="1957156226" Left="1722" Top="341" Right="1787" Bottom="369" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul[contains(@class, &apos;ant-list-item-action&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item[2]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{5D0C28FC-FD8D-4BB1-874B-A449F4098597}">
+										<Image FileName="1957156226" Left="1722" Top="343" Right="1740" Bottom="366" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul/li/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item[2]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{D57AF9A9-3088-450F-ACA0-643ECEA9594B}">
+										<Image FileName="1957156226" Left="1722" Top="346" Right="1740" Bottom="364" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item[2]/ul/li/a/i/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul/li/a/i/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link2" Key="{C62340D9-E26C-4248-AB9A-DF2D506A0217}">
+										<Image FileName="-710909655" Left="1759" Top="343" Right="1777" Bottom="366" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul/li[2]/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item[2]/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{50074F94-8244-42AF-9242-69FA01823841}">
+										<Image FileName="-710909655" Left="1759" Top="346" Right="1777" Bottom="364" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item[2]/ul/li[2]/a/i/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item[2]/ul/li[2]/a/i/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAdminSpace2" Key="{5563CF1D-C7EB-4BD6-8A1B-2F4B98D00C54}">
+										<Image FileName="1946876654" Left="60" Top="186" Right="159" Bottom="209" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Admin space&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-layout/nz-sider//ul/li//span[contains(@class, &apos;nav-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAdminSpace3" Key="{4FE9E881-BB1F-4868-AA61-47A4D01F837B}">
+										<Image FileName="-313235105" Left="0" Top="173" Right="250" Bottom="348" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Admin space&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;ng-tns-c4-96&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCategories" Key="{5F0D4D66-BE12-44F4-BA02-983FBC1A2990}">
+										<Image FileName="-313235105" Left="0" Top="233" Right="250" Bottom="343" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/ul[contains(@class, &apos;ng-star-inserted&apos;)]/ul[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCategories2" Key="{DD4537A5-F440-4D45-8B4C-CD5923B95FF9}">
+										<Image FileName="-313235105" Left="0" Top="233" Right="251" Bottom="283" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(text(), &apos;Categories&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNewOne" Key="{8B404571-D1FC-4F8F-8CCD-0A65ECFAEAB0}">
+										<Image FileName="1588232758" Left="384" Top="402" Right="1787" Bottom="468" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-list-item[contains(., &apos;new one&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formAddToTheList" Key="{88128B06-BB7D-434B-AC1F-6FB0F3557425}">
+										<Image FileName="599654564" Left="384" Top="256" Right="1787" Bottom="336" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Add to the list !&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox2" Key="{76F73240-804A-4098-8D9E-6D90AFF423C8}">
+										<Image FileName="599654564" Left="1006" Top="261" Right="1623" Bottom="301" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//nz-form-item[2]/nz-form-control//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//nz-form-item[2]/nz-form-control//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//form//nz-form-item[2]/nz-form-control//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//nz-form-item[2]/nz-form-control//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToTheList" Key="{BE411DA8-CCBD-4DFB-BB29-DD91086B523C}">
+										<Image FileName="-921139098" Left="1628" Top="261" Right="1787" Bottom="301" />
+										<TypeInfo Item0="{174B4131-AAD4-4354-912C-62563808C029}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Add to the list !&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ant-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAdminSpace" Key="{C878F93C-8903-4824-9175-CECA79E3D725}">
+										<Image FileName="968183600" Left="0" Top="173" Right="251" Bottom="223" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Admin space&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-tns-c4-96&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEdit" Key="{B033CB1C-F8CB-4055-B2FB-FD4D3B2E7BAB}">
+										<Image FileName="-1756458605" Left="1679" Top="355" Right="1787" Bottom="383" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;edit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul[contains(@class, &apos;ant-list-item-action&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEdit2" Key="{4FD7AD43-B884-452D-909A-C94098987448}">
+										<Image FileName="-1756458605" Left="1679" Top="355" Right="1719" Bottom="383" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;edit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEdit" Key="{A2DC478B-CF8C-46EC-A1C6-401EBFE1811B}">
+										<Image FileName="-1756458605" Left="1679" Top="357" Right="1709" Bottom="380" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;edit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox3" Key="{740BEBFA-08B3-4DE6-B200-0B7404C5C7DB}">
+										<Image FileName="-6992560" Left="384" Top="356" Right="612" Bottom="396" />
+										<TypeInfo Item0="{2F885AA8-7814-4800-BB18-3A90E4300398}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nz-list-item//nz-form-item/nz-form-control//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item//nz-form-item/nz-form-control//input[contains(@class, &apos;ant-input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item//nz-form-item/nz-form-control//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item//nz-form-item/nz-form-control//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSave" Key="{4044A9CB-ADB0-414E-9F1C-93F43964A0D6}">
+										<Image FileName="-583903898" Left="1674" Top="363" Right="1718" Bottom="391" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSave" Key="{6497A4DE-7929-4800-BFA2-C3764A510E5F}">
+										<Image FileName="-583903898" Left="1674" Top="364" Right="1708" Bottom="387" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li/a[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDelete" Key="{79AF0131-F357-44E3-A762-63A7408105E3}">
+										<Image FileName="2027341375" Left="1719" Top="355" Right="1787" Bottom="383" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;delete&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDelete" Key="{2EF313BB-A0C9-4FE3-9DAF-BB2D3B098168}">
+										<Image FileName="2027341375" Left="1729" Top="357" Right="1777" Bottom="380" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;delete&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li/a[contains(@class, &apos;danger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-content[@id=&apos;content&apos;]//nz-list-item/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nz-list-item/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{FC83AB76-1961-4839-96E2-A3016AC5B17D}">
+										<Image FileName="1708497083" Left="1728" Top="306" Right="1820" Bottom="329" />
+										<TypeInfo Item0="{899084FE-2738-49F6-B003-7366A2812C9B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Log out&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{9A696E39-A097-4DFF-85C0-5C772B949A11}">
+			<Child Name="BrowserWindow" Owner="{99586D93-89DB-4D68-BD21-45653F077A4E}" />
+			<Child Name="pageFront" Owner="{5AD68235-73FB-4375-9F69-84B8D632DC8E}">
+				<Child Name="textnodeMyAccount" Owner="{46EA3322-BA87-48B7-89AD-40424639E602}" />
+				<Child Name="sectionLogIn" Owner="{81278E7B-EF86-4018-B027-C2C64E2FC331}">
+					<Child Name="formRememberMe" Owner="{2632F392-0EED-4C94-9D73-54D74AB31ECE}">
+						<Child Name="textboxEmailInput" Owner="{C26D9AC2-B1A8-4A90-9B22-337A53AFA0B7}" />
+						<Child Name="labelRememberMe" Owner="{CA34CA02-5D2D-48BC-B3F1-07FA15E68D4C}">
+							<Child Name="textnodeRememberMe" Owner="{FCCBB9C8-14BC-4E7D-B631-004BFDA6BCC2}" />
+						</Child>
+						<Child Name="passwordboxPasswordInput" Owner="{C8982BC0-094F-4025-83DA-C7953A748D01}" />
+						<Child Name="buttonLogIn" Owner="{1B1E6F5B-5726-426B-B547-F36531428F87}" />
+						<Child Name="panel" Owner="{FC1DF53A-BDC4-462F-8991-DB234D4F8740}" />
+						<Child Name="linkRegisterNow" Owner="{7D537507-2828-4608-B81D-954BBC41686D}" />
+					</Child>
+				</Child>
+				<Child Name="panelMyAccount" Owner="{BDAE1474-5FD5-4104-8F40-11D57243C8E3}" />
+				<Child Name="sectionSignIn" Owner="{2F6F48DD-48C1-445C-B9FE-E8547868BBA5}">
+					<Child Name="formCredentials" Owner="{B4E7A2D1-90CE-4D52-AB65-861925BFA488}">
+						<Child Name="emailinputEmailReg" Owner="{EC5E3A52-26AD-425E-9633-6EDBE67FA62E}" />
+						<Child Name="passwordboxPassReg" Owner="{45C33ABA-4ABB-453F-90EF-2D1E07D68319}" />
+						<Child Name="passwordboxPassConfirm" Owner="{406694C8-108E-403D-9F69-C14AAF8EC26B}" />
+						<Child Name="textboxUsernameReg" Owner="{D42859F0-ED88-44B2-BC86-E629749B8737}" />
+						<Child Name="textboxFirstnameReg" Owner="{9DA8F12B-65C7-4D71-8C1C-7A0CD43F12C9}" />
+						<Child Name="textboxLastnameReg" Owner="{8F2CD6A2-321B-4D8A-9404-8507DAE92738}" />
+						<Child Name="buttonSignUp" Owner="{D26ABDE4-284C-4627-90EA-E0D4C8DF33CB}" />
+					</Child>
+				</Child>
+				<Child Name="linkMyaccountButton" Owner="{29065F73-CEC9-430A-B948-07BD793F51C4}" />
+				<Child Name="sectionYourInformation" Owner="{2949100C-0482-4D9D-BF1F-E315D71F1990}">
+					<Child Name="panelChangePassword" Owner="{8A185096-A515-428D-B13B-53BAA9DF99C5}" />
+					<Child Name="formActualPassword" Owner="{891E6E51-1908-4E8D-995C-DAC265A3D562}">
+						<Child Name="passwordbox" Owner="{F2CF4D89-B090-4DC6-BCF1-9CD0E875409E}" />
+						<Child Name="passwordbox2" Owner="{C60E609B-B60C-44CB-AC68-DFD3BD5101DD}" />
+						<Child Name="passwordbox3" Owner="{BD4FA007-A1E6-499E-8F55-156F1EAE55DA}" />
+						<Child Name="buttonSave" Owner="{BE26FFB4-2400-4702-B6AC-DB733641FD7C}" />
+					</Child>
+					<Child Name="formEmail" Owner="{D66FC552-E7BC-4901-A7B4-8E51B8D05027}">
+						<Child Name="textboxFirstnameEdit" Owner="{E1385415-A23C-4439-895A-31F6415FFE04}" />
+						<Child Name="textboxLastnameEdit" Owner="{7A47DF53-9B1B-400A-8808-6ED814827270}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeAvatarIcon" Owner="{12A8560A-FD9A-4356-B5A0-66FB43BA321B}" />
+				<Child Name="textnodeSh" Owner="{E9DAA3DB-D162-42E3-B3E5-458D92682245}" />
+				<Child Name="textnodeAdminSpace" Owner="{6505B1CD-CCB6-4241-9372-EDD36DF31077}">
+					<Child Name="textnodeAuthorSpace" Owner="{5F66404A-E40B-4213-AE27-FF65776F13B7}">
+						<Child Name="textnodeAuthorSpace2" Owner="{18D7BFED-A3A9-44AA-BAFD-E565ADDDB5C0}" />
+					</Child>
+					<Child Name="textnodeAllArticles" Owner="{C6F53366-669B-40E1-B464-65F87A0B5E9C}" />
+					<Child Name="panelAuthors" Owner="{9EA61531-59B8-40C4-88E7-0E42DF726091}" />
+					<Child Name="textnodeAuthors" Owner="{E71D695E-A425-4A4B-9933-01766317C769}">
+						<Child Name="textnodeSofiiaH" Owner="{6129F480-C845-4C43-B0E1-6DAF703C750F}">
+							<Child Name="textnodeSofiiaH2" Owner="{3E0AC8CD-6D5B-4745-B710-E1336C8DAE66}" />
+							<Child Name="textnodeTest21Test" Owner="{FCA629AC-FCFD-43AD-A4E3-A3054BA9BBF5}" />
+							<Child Name="textnodeSofiiaHoncharenko" Owner="{431BDC0B-10A9-4DF6-AF09-E32603982132}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeAdminSpace2" Owner="{5563CF1D-C7EB-4BD6-8A1B-2F4B98D00C54}" />
+					<Child Name="textnodeAdminSpace3" Owner="{4FE9E881-BB1F-4868-AA61-47A4D01F837B}">
+						<Child Name="textnodeCategories" Owner="{5F0D4D66-BE12-44F4-BA02-983FBC1A2990}">
+							<Child Name="textnodeCategories2" Owner="{DD4537A5-F440-4D45-8B4C-CD5923B95FF9}" />
+						</Child>
+					</Child>
+					<Child Name="panelAdminSpace" Owner="{C878F93C-8903-4824-9175-CECA79E3D725}" />
+				</Child>
+				<Child Name="sectionYourArticles" Owner="{572F8D44-A93A-4268-865C-C284D27C94FA}">
+					<Child Name="buttonWriteSomething" Owner="{14CDB7C5-7029-44C3-9AF1-DEB14940E901}" />
+					<Child Name="textnodeYourArticles" Owner="{1285B9EC-D61B-46D4-ADC1-9BA48B53EFDE}" />
+					<Child Name="textnode2" Owner="{6C6BF37B-C006-44EE-A9CF-EB66E971F442}">
+						<Child Name="link" Owner="{5D0C28FC-FD8D-4BB1-874B-A449F4098597}">
+							<Child Name="vg2" Owner="{D57AF9A9-3088-450F-ACA0-643ECEA9594B}" />
+						</Child>
+						<Child Name="link2" Owner="{C62340D9-E26C-4248-AB9A-DF2D506A0217}">
+							<Child Name="vg3" Owner="{50074F94-8244-42AF-9242-69FA01823841}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="sectionWriteAnArticle" Owner="{1DA2E35A-ABEA-4B19-A510-3AEF8F007056}">
+					<Child Name="formTitle" Owner="{D9BAAF32-3229-4ABC-9D70-1D201B69F081}">
+						<Child Name="textbox" Owner="{886656A1-8A52-44CB-BA0B-5AB19E5A4FB8}" />
+						<Child Name="panelCategory" Owner="{3F46477A-84D7-48E8-BAB6-3DB92865E91D}" />
+						<Child Name="panelCategory2" Owner="{805B84B2-B84B-4C5D-87FA-E82D7CDEA2C2}" />
+					</Child>
+					<Child Name="panelNewArticleHere" Owner="{BE7AC866-647B-4E7F-9DB1-1868311AA3F8}" />
+					<Child Name="buttonPublish" Owner="{8DE63D01-54D2-40B1-AFDD-431E90B54F4B}" />
+				</Child>
+				<Child Name="textnodeNew" Owner="{93EB33E3-89F8-44F8-A315-3537E2B6D8B7}">
+					<Child Name="textnodeNew2" Owner="{AF908853-132E-4775-A42C-AB956E6A9CA8}" />
+					<Child Name="textnodeTest" Owner="{8EBC9A3E-ADE3-44F9-88AF-C2F6B93178FA}" />
+				</Child>
+				<Child Name="panel2" Owner="{E37FEB1F-967E-48FC-ACBE-7D716E58E854}" />
+				<Child Name="sectionArticles" Owner="{6CBD2020-BA2D-4458-8E91-F6B0A414BA25}">
+					<Child Name="textnodePost" Owner="{72E211E5-F8BC-43D7-B839-8BD7C39547FE}">
+						<Child Name="linkPost" Owner="{E5FD9CC1-EC28-43EA-86EA-BDD5B45A2783}" />
+					</Child>
+					<Child Name="textnode" Owner="{D268CDFC-EFE8-48C5-8279-8F5454F46781}" />
+					<Child Name="textnodePost2" Owner="{54F187BE-3D37-4D9E-A7ED-399AB976A87C}">
+						<Child Name="linkPost2" Owner="{0293F511-5E2E-41FC-973E-9C68C7495E4B}" />
+					</Child>
+					<Child Name="textnodeMyArticle111" Owner="{D1666F3C-F657-46E6-847C-307A8921A751}">
+						<Child Name="linkMyArticle111" Owner="{75EB8171-2582-49A4-B00E-ED253526C58B}" />
+					</Child>
+					<Child Name="vg" Owner="{DAD2FD07-08ED-4B5E-8F6E-87FA33A41029}" />
+				</Child>
+				<Child Name="textnodeNewOne" Owner="{8B404571-D1FC-4F8F-8CCD-0A65ECFAEAB0}" />
+				<Child Name="formAddToTheList" Owner="{88128B06-BB7D-434B-AC1F-6FB0F3557425}">
+					<Child Name="textbox2" Owner="{76F73240-804A-4098-8D9E-6D90AFF423C8}" />
+					<Child Name="buttonAddToTheList" Owner="{BE411DA8-CCBD-4DFB-BB29-DD91086B523C}" />
+				</Child>
+				<Child Name="textnodeEdit" Owner="{B033CB1C-F8CB-4055-B2FB-FD4D3B2E7BAB}">
+					<Child Name="textnodeEdit2" Owner="{4FD7AD43-B884-452D-909A-C94098987448}">
+						<Child Name="linkEdit" Owner="{A2DC478B-CF8C-46EC-A1C6-401EBFE1811B}" />
+					</Child>
+					<Child Name="textnodeSave" Owner="{4044A9CB-ADB0-414E-9F1C-93F43964A0D6}">
+						<Child Name="linkSave" Owner="{6497A4DE-7929-4800-BFA2-C3764A510E5F}" />
+					</Child>
+					<Child Name="textnodeDelete" Owner="{79AF0131-F357-44E3-A762-63A7408105E3}">
+						<Child Name="linkDelete" Owner="{2EF313BB-A0C9-4FE3-9DAF-BB2D3B098168}" />
+					</Child>
+				</Child>
+				<Child Name="textbox3" Owner="{740BEBFA-08B3-4DE6-B200-0B7404C5C7DB}" />
+				<Child Name="linkLogOut" Owner="{FC83AB76-1961-4839-96E2-A3016AC5B17D}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

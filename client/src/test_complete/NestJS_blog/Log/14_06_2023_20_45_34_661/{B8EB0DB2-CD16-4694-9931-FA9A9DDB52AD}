@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage40_Dif.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage40.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxFirstnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7403516319"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="387"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="347"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi80182265141003.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxFirstnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7128819444"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="387"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="347"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.8653523727"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxFirstnameEdit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost:4200/#/my/profile&quot;).FindElement(&quot;#firstname_edit&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="message" type="S" value="The text 'test' was entered in the text editor."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="datetime" type="D" value="45091.7402246875"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1029"/>
+					<Prp name="object left" type="I" value="-9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1929"/>
+					<Prp name="object top" type="I" value="-9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.8652252315"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="message" type="S" value="The 'Front - Google Chrome' window was maximized."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{F9D20B1C-1920-419D-8D39-A8D6F66DCE40}"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage43_Dif.png"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage43.png"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formActualPassword.buttonSave"/>
+					<Prp name="datetime" type="D" value="45091.7403618171"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="569"/>
+					<Prp name="object left" type="I" value="1711"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1786"/>
+					<Prp name="object top" type="I" value="529"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1748"/>
+					<Prp name="click point y" type="I" value="549"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi80191000141006.png"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formActualPassword.buttonSave"/>
+					<Prp name="datetime" type="D" value="45091.7129861111"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="569"/>
+					<Prp name="object left" type="I" value="1711"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1786"/>
+					<Prp name="object top" type="I" value="529"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1718"/>
+					<Prp name="click point y" type="I" value="558"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.8653633796"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageFront.sectionYourInformation.formActualPassword.buttonSave&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost:4200/#/my/profile&quot;).FindElement(&quot;//button[.='Save']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="45091.865224537"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="URL: http://localhost:4200/#/article/list?page=1&amp;take=5&#xA;&#xA;Aliases.browser"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the http://localhost:4200/#/article/list?page=1&amp;take=5 page."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage38_Dif.png"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.linkMyaccountButton"/>
+					<Prp name="datetime" type="D" value="45091.7403465509"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="241"/>
+					<Prp name="object left" type="I" value="1729"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1851"/>
+					<Prp name="object top" type="I" value="218"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1789"/>
+					<Prp name="click point y" type="I" value="230"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi80178640141001.png"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.linkMyaccountButton"/>
+					<Prp name="datetime" type="D" value="45091.7128472222"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="241"/>
+					<Prp name="object left" type="I" value="1728"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1850"/>
+					<Prp name="object top" type="I" value="218"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1808"/>
+					<Prp name="click point y" type="I" value="233"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.865347662"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (48, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageFront.linkMyaccountButton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost:4200/#/my/profile&quot;).FindElement(&quot;#myaccount_button&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage39_Dif.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxFirstnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7403498148"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="387"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="347"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1231"/>
+					<Prp name="click point y" type="I" value="367"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi80180468141002.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxFirstnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7128587963"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="387"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="347"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="840"/>
+					<Prp name="click point y" type="I" value="368"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.8653507639"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (444, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxFirstnameEdit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost:4200/#/my/profile&quot;).FindElement(&quot;#firstname_edit&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage42_Dif.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage42.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxLastnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7403589352"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="467"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="427"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi80186531141005.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxLastnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7129282407"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="467"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="427"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.8653597685"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxLastnameEdit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost:4200/#/my/profile&quot;).FindElement(&quot;#lastname_edit&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="message" type="S" value="The text 'testtest22' was entered in the text editor."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="45091.8653420255"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageFront.&amp;#8203;&lt;a href=&quot;namemapping://{F307CC85-BA93-4E7E-906F-E4F9C41F6581}.{E9DAA3DB-D162-42E3-B3E5-458D92682245}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnodeSh&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//span[contains(@class, 'ant-avatar-string')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAQAdHlwZQEACwBSZWNvZ25pdGlvbgYAY29uZmlnAQAVAERlZmF1bHQg&#xA;Q29uZmlndXJhdGlvbgcAcHJvamVjdAEAJABGMzA3Q0M4NXhCQTkzeDRFN0V4OTA2RnhFNEY5QzQx&#xA;RjY1ODECAG5tAQAkAEU5REFBM0RCeEQxNjJ4NDJFM3hCM0U1eDQ1OEQ5MjY4MjI0NQkAcHJvcGNv&#xA;dW50AAAAAAQAbW9kZQAAAgAEAAsAZm91bmR2YWx1ZXMEAAEAMgEAwo0AQDJGMDAyRjAwNkUwMDdB&#xA;MDAyRDAwNjEwMDc2MDA2MTAwNzQwMDYxMDA3MjAwNUIwMDQwMDA2OTAwNjQwMDNEMDAyNzAwNjEw&#xA;MDc2MDA2MTAwNzQwMDYxMDA3MjAwNUYwMDY5MDA2MzAwNkYwMDZFMDAyNzAwNUQwMDJGMDA3MzAw&#xA;NzAwMDYxMDA2RTAwAQAwAQDCtQBAMkYwMDJGMDA3MzAwNzAwMDYxMDA2RTAwNUIwMDYzMDA2RjAw&#xA;NkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgwMDQwMDA2MzAwNkMwMDYxMDA3MzAwNzMwMDJDMDAy&#xA;MDAwMjcwMDYxMDA2RTAwNzQwMDJEMDA2MTAwNzYwMDYxMDA3NDAwNjEwMDcyMDAyRDAwNzMwMDc0&#xA;MDA3MjAwNjkwMDZFMDA2NzAwMjcwMDI5MDA1RDAwAQAzAQBBAEAyRjAwMkYwMDZFMDA3QTAwMkQw&#xA;MDYxMDA3NjAwNjEwMDc0MDA2MTAwNzIwMDJGMDA3MzAwNzAwMDYxMDA2RTAwAQAxAQBNAEAyRjAw&#xA;MkYwMDczMDA3MDAwNjEwMDZFMDA1QjAwNzQwMDY1MDA3ODAwNzQwMDI4MDAyOTAwM0QwMDI3MDA1&#xA;MzAwNDgwMDI3MDA1RDAwAAAGAHZhbHVlcwQAAQAyAQDCjQBAMkYwMDJGMDA2RTAwN0EwMDJEMDA2&#xA;MTAwNzYwMDYxMDA3NDAwNjEwMDcyMDA1QjAwNDAwMDY5MDA2NDAwM0QwMDI3MDA2MTAwNzYwMDYx&#xA;MDA3NDAwNjEwMDcyMDA1RjAwNjkwMDYzMDA2RjAwNkUwMDI3MDA1RDAwMkYwMDczMDA3MDAwNjEw&#xA;MDZFMDABADABAE0AQDJGMDAyRjAwNzMwMDcwMDA2MTAwNkUwMDVCMDA3NDAwNjUwMDc4MDA3NDAw&#xA;MjgwMDI5MDAzRDAwMjcwMDUzMDA0ODAwMjcwMDVEMDABADMBAEEAQDJGMDAyRjAwNkUwMDdBMDAy&#xA;RDAwNjEwMDc2MDA2MTAwNzQwMDYxMDA3MjAwMkYwMDczMDA3MDAwNjEwMDZFMDABADEBAMK1AEAy&#xA;RjAwMkYwMDczMDA3MDAwNjEwMDZFMDA1QjAwNjMwMDZGMDA2RTAwNzQwMDYxMDA2OTAwNkUwMDcz&#xA;MDAyODAwNDAwMDYzMDA2QzAwNjEwMDczMDA3MzAwMkMwMDIwMDAyNzAwNjEwMDZFMDA3NDAwMkQw&#xA;MDYxMDA3NjAwNjEwMDc0MDA2MTAwNzIwMDJEMDA3MzAwNzQwMDcyMDA2OTAwNkUwMDY3MDAyNzAw&#xA;MjkwMDVEMDAAAAcAbWF0Y2hlZAAAAAAFAG5hbWVzAAAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage37_Dif.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.textnodeSh"/>
+					<Prp name="datetime" type="D" value="45091.7403432986"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="148"/>
+					<Prp name="object left" type="I" value="1864"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1876"/>
+					<Prp name="object top" type="I" value="108"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1870"/>
+					<Prp name="click point y" type="I" value="128"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi80178031141000.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.textnodeSh"/>
+					<Prp name="datetime" type="D" value="45091.7128356481"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="148"/>
+					<Prp name="object left" type="I" value="1859"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1881"/>
+					<Prp name="object top" type="I" value="108"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1869"/>
+					<Prp name="click point y" type="I" value="131"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.8653442477"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (5, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageFront.textnodeSh&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost:4200/#/my/profile&quot;).FindElement(&quot;//span[contains(@class, 'ant-avatar-string')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage41_Dif.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxLastnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7403544444"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="467"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="427"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="846"/>
+					<Prp name="click point y" type="I" value="457"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi80185312141004.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxLastnameEdit"/>
+					<Prp name="datetime" type="D" value="45091.7129166667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="467"/>
+					<Prp name="object left" type="I" value="676"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1787"/>
+					<Prp name="object top" type="I" value="427"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="846"/>
+					<Prp name="click point y" type="I" value="457"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45091.8653579745"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 136, 24.&#xA;End point: -189, 16. (Negative coordinates mean the end point is outside the control's bounds.)&#xA;Dragging distance: -325, -8.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageFront.sectionYourInformation.formEmail.textboxLastnameEdit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost:4200/#/my/profile&quot;).FindElement(&quot;#lastname_edit&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

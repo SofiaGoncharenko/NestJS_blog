@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="activity" type="S" value="{24EB9FB5-F966-4A50-9B09-FF0C1BBD9D69}"/>
+			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{9e28ef2d-9ec7-491f-bf6b-5034a8016ea5}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
+			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
+				<Node name="workspace"/>
+			</Node>
+			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
+				<Prp name="history" type="S" value=""/>
+			</Node>
+			<Node name="{86873e45-42bf-4c44-8fbd-d6bdfbfd5189}"/>
+			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
+				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
+					<Node name="{027072e5-8d4a-49fc-a3dd-9ed503e1b1da}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{102cf0cf-d7ce-4c44-b624-e8ab49875852}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000001C000000780163624000262093118A41A20000880007"/>
+						</Node>
+					</Node>
+					<Node name="{2ce2d562-c08e-43b3-a9d2-52a69cd2f424}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{4126a12d-5cdd-4602-bcd0-0c313596e4ba}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{4c8f9d33-cd80-4942-8a54-0fb4169cabf8}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{72fa244c-bf31-4813-b9e7-4f7bca7e127c}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{73d18ef5-bfcf-4371-86b5-d7a768798512}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{8338f25f-247a-4edf-8cda-433088201471}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{9d7bf072-340d-41b6-8952-e10e93c8faea}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{d225e123-e7d8-4400-be8c-88818f3b9273}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{e7a2afa8-9098-4fd0-97ec-2ca03ad2f996}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{f78c55b8-c33b-4ae2-97e7-41d50505ec28}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+					<Node name="{f9d20b1c-1920-419d-8d39-a8d6f66dce40}\testdata">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E00000001000000140000007801636460606044C240260300004C0005"/>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
+				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{25887e2c-e99c-4361-887f-0b9efe282738}">
+						<Prp name="bottom" type="I" value="0"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+				</Node>
+			</Node>
+			<Node name="{dadeeeea-7bf7-4f7b-98d1-fc8ffe5fedae}">
+				<Node name="{02542b04-194a-4903-b727-27ddea5f3f24}"/>
+				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
+			</Node>
+			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
+				<Node name="nestjs_blog">
+					<Node name="nestjs_blog">
+						<Node name="keywordtests"/>
+						<Node name="script"/>
+					</Node>
+				</Node>
+				<Node name="nestjs_blog logs">
+					<Node name="nestjs_blog logs"/>
+				</Node>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
+	</Node>
+</Nodes>

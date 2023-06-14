@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{8B4F8665-3D8B-4CFC-A00B-B7834A8D79D5}">
+	<children>
+		<child name="NestJS_blog" key="{24EB9FB5-F966-4A50-9B09-FF0C1BBD9D69}" path="NestJS_blog\NestJS_blog.mds" />
+	</children>
+	<testItems key="{8AB49D6A-83AA-4A5E-81C4-FA4DFB2DE36A}">
+		<children>
+			<testItem key="{24EB9FB5-F966-4A50-9B09-FF0C1BBD9D69}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{48233069-B416-4E72-83D6-D190E01A33FC}" />
+	<analysis key="{6B37161C-0ED0-4937-BD7D-2960A9851B33}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
